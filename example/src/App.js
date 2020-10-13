@@ -12,15 +12,15 @@ function App() {
     </Reaktionsschnelle>
  
     <Reaktionsschnelle minWidth={500}>
-      <div>Your screen is <= 500px</div>
+      <div>Your screen is &lt;= 500px</div>
     </Reaktionsschnelle>
  
     <Reaktionsschnelle maxWidth={300}>
-      <div>Your screen is > 300px</div>
+      <div>Your screen is &gt; 300px</div>
     </Reaktionsschnelle>
  
     <Reaktionsschnelle minWidth={800} maxWidth={1000}>
-      <div>Your screen is <= 800px and < 1000px</div>
+      <div>Your screen is &lt;= 800px and &lt; 1000px</div>
     </Reaktionsschnelle>
   </>
 }
