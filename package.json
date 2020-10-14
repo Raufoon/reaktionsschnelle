@@ -1,6 +1,6 @@
 {
   "name": "reaktionsschnelle",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A react component for making its children responsive based on the window size changes",
   "author": "Raufoon",
   "license": "MIT",

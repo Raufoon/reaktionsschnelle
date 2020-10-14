@@ -29,9 +29,10 @@ export default function Responsive(props) {
         window.removeEventListener('resize', onResize)
       }
     }
-    , [])
+    , []
+  )
 
-  return isVisible && children
+  return isVisible && !!children && <>{children}</>
 }
 
 
